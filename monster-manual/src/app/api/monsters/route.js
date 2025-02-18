@@ -19,18 +19,18 @@ export async function GET() {
 
 export async function POST(request) {
   try {
-    const monster = await request.json();
+    const newMonsters = await request.json();
     const fileContents = await fs.promises.readFile(dataFile, "utf8");
     const monsters = JSON.parse(fileContents);
-    monsters.push(monster);
+    monsters.push(...newMonsters);
     await fs.promises.writeFile(dataFile, JSON.stringify(monsters, null, 2));
     return NextResponse.json(
-      { message: "Monster added successfully" },
+      { message: "Monsters added successfully" },
       { status: 201 }
     );
   } catch (error) {
     return NextResponse.json(
-      { error: "Failed to add monster" },
+      { error: "Failed to add monsters" },
       { status: 500 }
     );
   }

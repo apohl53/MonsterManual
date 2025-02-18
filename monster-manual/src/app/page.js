@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-6">D&D Monster Tracker</h1>
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Add New Monster</h2>
+          <h2 className="text-2xl font-semibold mb-4">Add New Monsters</h2>
           <MonsterForm />
         </div>
         <div>

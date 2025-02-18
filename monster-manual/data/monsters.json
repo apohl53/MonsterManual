@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Animated Armor",
+    "type": "Construct",
+    "alignment": "Unaligned",
+    "environment": "Urban",
+    "challengeRating": "1",
+    "source": "https://www.dndbeyond.com/monsters/5194893-animated-armor",
+    "subtype": ""
+  },
+  {
+    "name": "imp",
+    "type": "fiend",
+    "alignment": "Lawful Evil",
+    "environment": "any",
+    "challengeRating": "1",
+    "source": "https://www.dndbeyond.com/monsters/4775825-imp",
+    "subtype": "devil"
+  },
+  {
+    "name": "Commoner",
+    "creatureType": "Humanoid",
+    "subtype": "NPC",
+    "environment": "Any",
+    "alignment": "Any",
+    "challengeRating": "0",
+    "source": "https://www.dndbeyond.com/monsters/5194951-commoner"
+  },
+  {
+    "name": "Crawling Claw",
+    "creatureType": "Undead",
+    "subtype": "NA",
+    "environment": "Any",
+    "alignment": "Evil",
+    "challengeRating": "0",
+    "source": "https://www.dndbeyond.com/monsters/5194954-crawling-claw"
+  },
+  {
+    "name": "Homunculus",
+    "creatureType": "Monstrosity",
+    "subtype": "NA",
+    "environment": "Any",
+    "alignment": "Any",
+    "challengeRating": "0",
+    "source": "https://www.dndbeyond.com/monsters/5195080-homunculus"
+  }
+]
